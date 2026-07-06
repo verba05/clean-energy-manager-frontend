@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.16), transparent 35%),
+    linear-gradient(135deg, #0f2f66 0%, #1b4fa8 50%, #15407f 100%);
+  color: #f4f8ff;
+}
+
+a {
+  color: #ffe08a;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: #fff2b8;
+}
+
+.topNav {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem 0;
+  flex-wrap: wrap;
+}
+
+.navLink {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #fff6c8;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navLink:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.pageShell {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+.pageHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.pageKicker {
+  margin: 0 0 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ffd166;
+}
+
+.pageTitle {
+  margin: 0 0 0.4rem;
+  font-size: 1.8rem;
+}
+
+.pageSubtitle {
+  margin: 0;
+  color: rgba(244, 248, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+.pageLinkButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff6c8;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.pageLinkButton:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  padding: 1.25rem;
+}
+
+.fieldLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.formRow {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.textInput {
+  flex: 1;
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.92);
+  color: #0f2f66;
+}
+
+.primaryButton {
+  padding: 0.6rem 1.15rem;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  border: none;
+  border-radius: 8px;
+  background: #ffd166;
+  color: #14264d;
+  cursor: pointer;
+}
+
+.primaryButton:hover:not(:disabled) {
+  background: #ffdb85;
+}
+
+.primaryButton:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}

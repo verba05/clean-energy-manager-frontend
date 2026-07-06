@@ -1,12 +1,5 @@
-import Link from "next/link";
+import EnergyMix from "./EnergyMix";
 
 export default function Home() {
-  return (
-    <div>
-      Hello World.{" "}
-      <Link href="/about">
-        About
-      </Link>
-    </div>
-  );
+  return <EnergyMix />;
 }
