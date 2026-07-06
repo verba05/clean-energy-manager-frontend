@@ -8,7 +8,7 @@ import {
     ResponsiveContainer,
 } from "recharts";
 
-const API = process.env.BACKEND_API_URL;
+const API = process.env.NEXT_PUBLIC_BACKEND_API_URL;
 
 const COLORS = [
     "#f94144",

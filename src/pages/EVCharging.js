@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-const API = process.env.BACKEND_API_URL;
+const API = process.env.NEXT_PUBLIC_BACKEND_API_URL;
 
 
 
@@ -49,7 +49,7 @@ export default function EVCharging() {
 				<div>
 					<p className="pageKicker">EV planning</p>
 					<h1 className="pageTitle">EV Charging Optimizer</h1>
-					<p className="pageSubtitle">Pick the charging duration and get the best low-carbon window from the backend.</p>
+					<p className="pageSubtitle">Pick the charging duration and get the best low-carbon window.</p>
 				</div>
 				<button className="pageLinkButton" onClick={() => router.push("/EnergyMix")}>
 					Back to energy mix
